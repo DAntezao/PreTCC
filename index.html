@@ -28,7 +28,7 @@
             <section class="Serviços">
                 <h1>Nossos Serviços</h1>
                 <div id="mão">
-                    <h2>Manicureeeeeeeeeeeeee</h2>
+                    <h2>Manicure</h2>
                     <p>Cuidado com suas unhas e esmaltação simples</p>
                 </div>
                 <div id="pés">
@@ -76,11 +76,21 @@
 
             <section class="formulario">
                 <div id="dados2">
-                    <h3>agende seu horário</h3>
-                    <form action="">nome</form>
-                    <form action="">telefone</form>
-                    <form action="">serviço</form>
-                    <button>Enviar</button>
+                    <form>
+                        <label for="name">nome:</label>
+                        <input type="text" name="nome" required>
+
+                        <label for="Telefone">Telefone:</label>
+                        <input type="number" name="telefone" required>
+                        <label for="serviço">escolha o serviço</label>
+                        
+                        <select name="servico" id="servico" required>
+                        <option value="">Escolha o serviço</option>
+                        <option value="manicure">Manicure</option>
+                        <option value="Pedicure">Pedicure</option>
+                        <option value="Nail design">Nail design</option>
+                        </select>
+                    </form>
                 </div>
             </section>
 
